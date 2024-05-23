@@ -17,9 +17,13 @@ export default function Boxs() {
   return (
     <DragDropContext onDragEnd={onDradEndHandle}>
       <div className="Boxs">
-        {columns.map((col) => (
-          <Box key={col.id} col={col} />
-        ))}
+        {columns[0].items.length > 0 ||
+        columns[1].items.length > 0 ||
+        columns[2].items.length > 0 ? (
+          columns.map((col) => <Box key={col.id} col={col} />)
+        ) : (
+          <h3 className="Boxs__msg-no-task">No Tasks Yet.. Add Some 😊☝</h3>
+        )}
       </div>
     </DragDropContext>
   );

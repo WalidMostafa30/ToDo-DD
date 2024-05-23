@@ -29,7 +29,7 @@ export default function Box({ col }) {
             ) : (
               <h5 className="Box__msg-drop-here">
                 Drop Here...
-                <span>!</span>
+                <span>👇</span>
               </h5>
             )}
             {provided.placeholder}

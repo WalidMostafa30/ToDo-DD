@@ -31,13 +31,13 @@ export default function ToDo({ tsk, index, droppableId }) {
                 dispatch(removePost({ DRid: droppableId, id: tsk.id }))
               }
             >
-              X
+              🗑
             </span>
             <span
               className="ToDo__btn ToDo__btn--edit"
               onClick={toggleEditHandle}
             >
-              !
+              🖊
             </span>
           </div>
         )}
