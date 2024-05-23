@@ -1,0 +1,16 @@
+.Boxs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+
+  .Boxs__msg-no-task {
+    border-radius: 5px;
+    background-color: var(--main-color3);
+    box-shadow: var(--main-shadow);
+    color: white;
+    margin: 30px auto;
+    padding: 10px 20px;
+  }
+}

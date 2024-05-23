@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --main-color: #c0e5ba;
+  --main-color2: #4ca771;
+  --main-color3: #013237;
+  --main-color3-hover: rgba(17, 80, 103, 0.112);
+  --main-shadow: 0px 0px 10px #00000063;
+}
+
+body {
+  background-color: var(--main-color) !important;
+}

@@ -1,0 +1,18 @@
+.NavBar {
+  background-color: var(--main-color3);
+  color: white;
+  box-shadow: var(--main-shadow);
+  width: 100%;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+
+  @media (max-width: 991px) {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,57 @@
+.Edit-Task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  .Edit-Task__form {
+    background-color: var(--main-color2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    z-index: 1100;
+  }
+
+  textarea {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 24px;
+    min-height: 200px;
+    max-height: 400px;
+  }
+
+  .Edit-Task__btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .Edit-Task__btn {
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 22px;
+
+    &:hover {
+      filter: contrast(0.5);
+    }
+
+    &.Edit-Task__btn--edit {
+      background-color: var(--main-color3);
+    }
+
+    &.Edit-Task__btn--close {
+      background-color: red;
+    }
+  }
+}
